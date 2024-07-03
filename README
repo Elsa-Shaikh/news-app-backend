@@ -1,0 +1,22 @@
+Steps:
+
+1. npm init -y
+2. write this "type":"module" in package.json file for es6 javascript
+3. change script ""test" to "start":"node serve.js", "server":"nodemon server.js"" in package.json file
+4. npm i express dotenv nodemon
+5. create .env file
+6. for validation npm i @vinejs/vine
+7. npm i prisma --save-dev
+8. npx prisma
+9. npx prisma init
+10. npm i @prisma/client
+11. npx prisma migrate dev --name any_name
+12. npm run server
+13. setup postgresSQL db
+14. npm i bcryptjs jsonwebtoken uuid express-fileupload
+15. npm i helmet cors for secure http headers
+16. npm i express-rate-limit for api hits
+17. npm i express-redis-cache for caching (note; first install docker)
+18. npm i winston for logging files
+19. npm i nodemailer for send emails
+20. npm i bullmq for queue
