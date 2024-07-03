@@ -1,5 +1,15 @@
-Steps:
+# News App Backend Service
+This is a backend service for a news app where I have created authentication APIs and news creation APIs, and I have also used features like API hit limit, logging files,send emails, Redis, and queue.
 
+# Technolgy
+NodeJS
+ExpressJS 
+PostgresSQL for database 
+PrismaORM  
+POSTMAN for Testing
+
+
+# Steps:
 1. npm init -y
 2. write this "type":"module" in package.json file for es6 javascript
 3. change script ""test" to "start":"node serve.js", "server":"nodemon server.js"" in package.json file
